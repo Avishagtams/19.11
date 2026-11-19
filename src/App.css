@@ -1,0 +1,41 @@
+.flavor-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.flavor-card {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.sold-out {
+  opacity: 0.5;
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+button {
+  width: 30px;
+  margin-right: 5px;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.warning {
+  background-color: yellow;
+  padding: 8px;
+}
+
+.info {
+  background-color: lightblue;
+  padding: 8px;
+}
